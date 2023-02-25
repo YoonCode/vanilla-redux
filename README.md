@@ -1,6 +1,7 @@
 # Vanilla Redux
 
 Learning Vanilla Redux and React Redux
+Redux 공식사이트: https://redux.js.org/
 
 1. Redux 요소별 역할
 - store: application의 data를 저장, reducer 함수를 필요로 함
