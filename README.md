@@ -14,3 +14,8 @@ Redux 공식사이트: https://redux.js.org/
 - getState(): 현재 data 값을 출력
 - dispatch(): action type을 결정
 - subscribe(): reducer에서 data 수정 여부를 출력
+
+3. connect
+- connect(mapStateToProps, mapDispatchToProps) (Component): store와 component를 연결함
+- mapStateToProps: store에서 state를 prop으로 가져옴
+- mapDispatchToProps: dispatch 함수를 prop으로 store에 보냄
