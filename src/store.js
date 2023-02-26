@@ -18,6 +18,9 @@ const deleteToDo = id => {
 };
 
 const reducer = (state = [], action) => {
+  if (localStorage.length === 0) {
+    localStorage.setItem("toDos", JSON.stringify(state));
+  }
   switch (action.type) {
     case ADD:
       return [{ text: action.text, id: Date.now().toString() }, ...state];
